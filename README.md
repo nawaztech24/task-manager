@@ -66,7 +66,11 @@ cd task-manager
 
 
 cd backend
+
+
 npm install
+
+
 node server.js
 
 
@@ -83,7 +87,11 @@ Open a new terminal:
 
 
 cd frontend
+
+
 npm install
+
+
 npm start
 
 
