@@ -47,3 +47,49 @@ task-manager/
 │ └── index.js
 │
 └── README.md
+
+---
+
+##  Setup & Run Instructions
+
+###  1. Clone the repository
+
+
+git clone https://github.com/nawaztech24/task-manager.git
+
+cd task-manager
+
+
+---
+
+###  2. Run Backend
+
+
+cd backend
+npm install
+node server.js
+
+
+ Server will run on:
+
+http://localhost:5000
+
+
+---
+
+###  3. Run Frontend
+
+Open a new terminal:
+
+
+cd frontend
+npm install
+npm start
+
+
+App will run on:
+
+http://localhost:3000
+
+
+
