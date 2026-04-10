@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* MAIN CENTER */
+.main-container {
+  width: 400px;          /* 🔥 FIXED WIDTH (important) */
+  margin: 50px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* INPUT + BUTTON */
+.input-container {
+  display: flex;
+  gap: 10px;
+  width: 100%;           /* 🔥 SAME AS CARD */
+}
+
+/* INPUT */
+input {
+  flex: 1;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTON */
+button {
+  height: 40px;
+  padding: 0 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* REMOVE UL PADDING */
+ul {
+  padding: 0;
+}
+
+/* TASK CARD */
+li {
+  list-style: none;
+  margin-top: 20px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  width: 100%;           /* 🔥 SAME WIDTH */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* BUTTON SPACING */
+li button {
+  margin: 10px 5px 0;
+}
